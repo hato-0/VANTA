@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.cart3r.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "InGameHudMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

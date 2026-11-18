@@ -1,0 +1,11 @@
+VANTA CLIENT 5.0.0 — BUILD INSTRUCTIONS
+Minecraft Java 1.21.1 / Fabric / Java 21
+
+1. Install a JDK 21.
+2. Install Gradle 8.x and make sure `gradle --version` works in PowerShell.
+3. Open PowerShell in this folder.
+4. Run: gradle build
+5. If successful, find the installable mod in build\libs\ (choose the JAR without -sources).
+6. Copy it to your Modrinth instance's mods folder.
+
+This archive is source code, not a compiled JAR. It has not been compiled or tested in-game.

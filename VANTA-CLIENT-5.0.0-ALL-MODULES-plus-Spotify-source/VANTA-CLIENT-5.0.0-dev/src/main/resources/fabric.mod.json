@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "vanta_client",
+  "version": "${version}",
+  "name": "VANTA CLIENT",
+  "description": "A lightweight all-in-one client-side utility and HUD mod.",
+  "authors": ["VANTA"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.cart3r.client.Cart3rClient"]
+  },
+  "mixins": [
+    {
+      "config": "vanta-client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
